@@ -1,3 +1,8 @@
+
+Ссылка на gh pages:
+https://partizan01.github.io/Block-6.1.5/
+
+
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
