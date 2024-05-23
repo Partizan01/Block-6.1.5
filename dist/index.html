@@ -3,14 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Практическая задача 6.1.5 «Верстка финального макета»</title>
-</head>
+<link href="style.css" rel="stylesheet"></head>
 
 <body>
 <div class="blurred-space"></div>
@@ -98,7 +95,7 @@
                 <span class="description__text--full">, что подтверждает большое количество постоянных клиентов. Мы
                   гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и
                   близким.</span>
-                    <p class="description__text--all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
+                    </p><p class="description__text--all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
                         ante aliquam, consequat purus quis, interdum leo. Ut euismod quam eu tellus rhoncus tincidunt. Sed
                         convallis nibh tincidunt ultrices dignissim. Nunc scelerisque lectus eu lectus faucibus, a euismod
                         felis
@@ -109,14 +106,14 @@
                         Etiam
                         ut dignissim justo, sed vestibulum elit. Sed id lorem pulvinar ipsum dictum tristique.</p>
 
-                    </p>
+                    <p></p>
                     <button class="description__link show-all">
                         <img src="./img/icon.svg" class="show-all__img">
                         <span class="show-all__text">Читать далее</span>
                     </button>
                 </div>
                 <div class="description__img">
-                    <img src="./img/logo.png" />
+                    <button class="group-logo"></button>
                 </div>
             </section>
             <section class="main__brands brands slider" id="brands">
@@ -184,7 +181,7 @@
                                 <span class="tech__description">Ремонт мониторов</span>
                                 <button class="goto-tech"></button>
                             </div>
-                            <div class="swiper-slide slide tech__slide ">
+                            <div class="swiper-slide slide tech__slide">
                                 <span class="tech__description">Ремонт телефонов</span>
                                 <button class="goto-tech"></button>
                             </div>
@@ -309,15 +306,13 @@
             <main class="feedback__content">
                 <form>
                 <label class="input">
-                    <input type="text" class = "input-name" placeholder="Имя">
+                    <input type="text" class="input-name" placeholder="Имя">
                     <input type="tel" name="tel" placeholder="Телефон">
                     <input type="email" placeholder="Электронная почта">
-                    <textarea type="text" rows="10" class ="message" placeholder="Сообщение"></textarea>
+                    <textarea type="text" rows="10" class="message" placeholder="Сообщение"></textarea>
                 </label>
                 </form>
-                <div class="feedback__agreement">Нажимая “отправить”, вы даете согласие на <a href=#
-                                                                                              class="policy-link">обработку персональных данных</a> и соглашаетесь с нашей <a href=#
-                                                                                                                                                                              class="policy-link">политикой конфиденциальности</a></div>
+                <div class="feedback__agreement">Нажимая “отправить”, вы даете согласие на <a href="#" class="policy-link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="policy-link">политикой конфиденциальности</a></div>
                     <button class="feedback__order"></button>
 
 
@@ -331,15 +326,13 @@
             <main class="call__content">
                 <form>
                     <label class="input">
-                        <input type="text" class = "input-name" placeholder="Имя">
+                        <input type="text" class="input-name" placeholder="Имя">
                         <input type="tel" name="tel" placeholder="Телефон">
                         <input type="email" placeholder="Электронная почта">
-                        <textarea type="text" rows="10" class ="message" placeholder="Сообщение"></textarea>
+                        <textarea type="text" rows="10" class="message" placeholder="Сообщение"></textarea>
                     </label>
                 </form>
-                    <div class="feedback__agreement">Нажимая “отправить”, вы даете согласие на <a href=#
-                                                                                                  class="policy-link">обработку персональных данных</a> и соглашаетесь с нашей <a href=#
-                                                                                                                                                                                  class="policy-link">политикой конфиденциальности</a></div>
+                    <div class="feedback__agreement">Нажимая “отправить”, вы даете согласие на <a href="#" class="policy-link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="policy-link">политикой конфиденциальности</a></div>
                     <button class="feedback__order"></button>
 
             </main>
@@ -348,6 +341,6 @@
     <script type="module" src="src/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-</body>
+<script type="text/javascript" src="./js/bundle.js"></script></div></body>
 
 </html>
